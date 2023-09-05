@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "target": "ESNext",
+      "lib": [
+        "DOM",
+        "DOM.Iterable",
+        "ESNext",
+      ],
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "rootDir": "src",
+      "outDir": "lib",
+      // "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true
+    },
+    "include": ["src"],
+    "ts-node": {
+      "esm": true,
+      // "require": ["tsconfig-paths/register"],
+      // "experimentalSpecifierResolution": "node"
+    }
+  }
+  

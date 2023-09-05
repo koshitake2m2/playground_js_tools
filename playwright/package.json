@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "ts-node": "ts-node",
+    "build:live:for": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
