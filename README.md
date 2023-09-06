@@ -3,9 +3,10 @@
 ## playwright
 
 ```bash
+npx playwright install
+
 pnpm create playwright
 npx playwright test
-
 ```
 
 ## k6
