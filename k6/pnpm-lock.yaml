@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 devDependencies:
   '@babel/core':
@@ -11,8 +15,8 @@ devDependencies:
     specifier: ^7.22.15
     version: 7.22.15(@babel/core@7.22.15)
   '@types/k6':
-    specifier: ~0.45.3
-    version: 0.45.3
+    specifier: ^0.46.2
+    version: 0.46.2
   '@types/webpack':
     specifier: 5.28.0
     version: 5.28.0(webpack-cli@4.6.0)
@@ -1353,8 +1357,8 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
 
-  /@types/k6@0.45.3:
-    resolution: {integrity: sha512-HkB61Bz08E9462J72igdDf+M6uMn5GLEIYUxfojWcOm/7lLEapySgsEPVXYRyPbCX/xUn77iCG8PxOJnndNZzQ==}
+  /@types/k6@0.46.2:
+    resolution: {integrity: sha512-T1LU04YzrmcsTVOtFFL0wn0TPzvX08XNbmUJAIziR0J+4HO3IwN4t/X20y16+qZY7Aac141lYWje6QIIrbmmKg==}
     dev: true
 
   /@types/minimatch@5.1.2:

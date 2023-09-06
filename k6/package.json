@@ -6,7 +6,7 @@
     "@babel/core": "^7.22.15",
     "@babel/preset-env": "^7.22.15",
     "@babel/preset-typescript": "^7.22.15",
-    "@types/k6": "~0.45.3",
+    "@types/k6": "^0.46.2",
     "@types/webpack": "5.28.0",
     "babel-loader": "8.2.2",
     "clean-webpack-plugin": "^4.0.0",
@@ -19,6 +19,7 @@
   },
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider webpack",
+    "webpack": "webpack",
     "ts-node": "ts-node",
     "build:live:for": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\""
   }
