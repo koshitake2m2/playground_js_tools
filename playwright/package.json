@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
+    "test": "npx playwright test",
     "ts-node": "ts-node",
     "build:live:for": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\""
   },

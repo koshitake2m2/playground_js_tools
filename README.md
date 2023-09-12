@@ -6,7 +6,7 @@
 npx playwright install
 
 pnpm create playwright
-npx playwright test
+pnpm test
 ```
 
 ## k6
